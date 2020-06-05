@@ -1,6 +1,6 @@
 * Things to fill out
 ** TODO site url [[file:src/_data/site.json::"url": "https://hylia.website",][data]] 
-** TODO [[file:src/_data/site.json::"authorEmail": "russomichaelb@gmail.com", "authorHandle": "@miker2049", "authorName": "Mik Rus",][author infor]]
+** TODO [[file:src/_data/site.json::"authorEmail": "russomichaelb@gmail.com", "authorHandle": "@miker2049", "authorName": "Mik Rus",][author information]]
 ** TODO [[file:src/pages/faq.md][faq to fill out]]
 ** TODO [[file:src/images][favicon]]
 ** TODO theme in general, [[file:src/_data/tokens.json::"colors": {][pallete]]
