@@ -16,6 +16,11 @@
             "external": false
         },
         {
+            "text": "Mutual Aid",
+            "url": "/aid",
+            "external": false
+        },
+        {
             "text": "Contact the Union",
             "url": "/contact",
             "external": false
