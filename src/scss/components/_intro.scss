@@ -4,6 +4,7 @@
   &__summary {
     --flow-space: #{get-size(500)};
     font-size: get-size(500);
+    padding-top: get-size(500);
 
     a {
       color: currentColor;
@@ -20,6 +21,7 @@
 
     &--compact {
       max-width: 20ex;
+      padding-bottom: get-size(500);
     }
   }
 }
