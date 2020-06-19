@@ -1,17 +1,12 @@
 <header class="[ intro ] [ pad-top-900 pad-bottom-max ]">
     <div class="[ inner-wrapper ] [ sf-flow ] [ two-cols ] " >
         <div>
-            <h1 class="[ intro__heading{{ ' intro__heading--compact' if page.url === '/' }} ] [ text-800 md:text-900 leading-tight ] [ p-name ]">{{ introHeading }}</h1>
+            <h1 class="[ intro__heading] [ text-800 md:text-900 leading-tight ] [ p-name ]">{{ introHeading }}</h1>
             {% if introSummary %}
                 <div class="[ intro__summary ] [ sf-flow ] [ leading-mid measure-short ] " >
                     <div>{{ introSummary | safe }}</div>
                 </div>
             {% endif %}
         </div>
-        {% if page.url === '/' %}
-            <div>
-                <img src="/images/Zap_Outreach.png" alt="Join Altman Tenant's Union Monday, June 15th and Tuesday, June 16th for a phone zap in support of Altman tenants!"/>
-            </div>
-        {% endif %}
     </div>
 </header>

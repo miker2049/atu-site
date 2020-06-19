@@ -4,6 +4,7 @@ permalink: '/contact/index.html'
 layout: 'layouts/contact.njk'
 ---
 
-You can have a contact page which uses a basic form. The [code with the form fields lives here](https://github.com/hankchizljaw/hylia/blob/master/src/_includes/layouts/contact.njk). 
+If you live in a property owned by Altman, and would like to join the union and help your neighbors, just fill out this form below, and we will be in touch soon!  You can also email [email](email@email.com) directly.  
 
-To delete the contact form for this site, delete this page in the CMS or at `src/pages/contact.md`. You probably will also want to delete `src/pages/thank-you.md`.
+
+Use this form to reach out to us for any reason at all, we will try to respond quickly.  We are happy to hear of any experiences you have had with Altman Properties, or would just like to inquire more!  

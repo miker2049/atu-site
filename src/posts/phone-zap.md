@@ -21,10 +21,12 @@ Our demands include
 
 We want to let Altman know that their actions are unacceptable! You can help us by simply calling or sending a form email.
 
-From the morning of the 15th through the end of the work day on the 16th we ask that as many people as possible call in!
+From the morning of the 22th through the end of the work day on the 23th we ask that as many people as possible call in!
 
 If you’re an Altman tenant:  Use the form letter below to write to your own individual property manager and _____(whatever head person we decide on), then call your property manager to let them know you’ve emailed and are concerned. 
 
 If you’re a friend, family, or community member please also use the form and address your email to ____ (whoever we decide) and then call ______(#) to let them know you’ve emailed and are concerned. 
 
-!["phone zap"](/images/Zap_Outreach.png "Join Altman Tenant's Union Monday, June 15th and Tuesday, June 16th for a phone zap in support of Altman tenants!")
+The template letter we are asking people to use can be found [here](https://docs.google.com/document/d/1PwwyxLfYAvv9qz-UK0kOCV8bX8rx7GoFVYjN11u6xLc/edit).
+
+!["phone zap"](/images/phonezap.jpg "Join Altman Tenant's Union Monday, June 15th and Tuesday, June 16th for a phone zap in support of Altman tenants!")

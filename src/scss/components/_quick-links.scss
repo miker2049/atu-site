@@ -1,0 +1,18 @@
+.quick-links{
+    li {
+        list-style-position: inside;
+        list-style: none;
+        padding: get-size(300)
+    }
+    a {
+        color: currentColor;
+
+        &:hover {
+            text-decoration: none;
+        }
+        
+    }
+    div {
+        grow:2
+    }
+}

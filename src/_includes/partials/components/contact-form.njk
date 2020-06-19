@@ -1,18 +1,21 @@
-{% from "macros/form.njk" import label, field, textarea, button %}
+{% from "macros/form.njk" import label, field, textarea, button, radios %}
 
 <form name="contact" method="POST" data-netlify="true" action="/thank-you" netlify-honeypot="bot-field">
   <ol class="[ field-list ]">
     <li class="[ field-list__field-group ]">
-      {{ label("What’s your name?", "name") }}
-      {{ field( "text", "name", { required: true, placeholder: "Katherine Johnson", autocomplete: "name", autocorrect: "off", autocapitalize: "off" } ) }}
+      {{ label("What’s your name(s)?", "name") }}
+      {{ field( "text", "name", { required: true,  autocomplete: "name", autocorrect: "off", autocapitalize: "off" } ) }}
     </li>
     <li class="[ field-list__field-group ]">
-      {{ label("What’s your email address?", "email") }}
-      {{ field( "email", "email", { required: true, placeholder: "katherine@johnson.tld", autocomplete: "email" } ) }}
+      {{ label("What’s a good email address to reach you at?", "email") }}
+      {{ field( "email", "email", { required: true,  autocomplete: "email" } ) }}
     </li>
     <li class="[ field-list__field-group ]">
-      {{ label("What’s on your mind?", "message") }}
-      {{ textarea( "message", { required: true, autocapitalize: "sentences", spellcheck: "true" } ) }}
+        {{ radios("Why are you reaching out today?","reason",["joining the union","asking a question", "want to notify us about something concerning Altman Properties"],{required:false}) }}
+    </li>
+    <li class="[ field-list__field-group ]">
+      {{ label("Enter your message here", "message") }}
+        {{ textarea( "message", { required: true, placeholder: "If you are interested in joining, tell us a little bit about you and your situation.  If you just want to notify us of something, let us know", autocapitalize: "sentences", spellcheck: "true" } ) }}
     </li>
     <li hidden>
       <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
