@@ -1,4 +1,6 @@
 .quick-links{
+    display:flex;
+    flex-direction:row;
     li {
         list-style-position: inside;
         list-style: none;
@@ -13,6 +15,8 @@
         
     }
     div {
-        grow:2
+        grow:2;
+        width:33%;
+        text-align: center;
     }
 }
