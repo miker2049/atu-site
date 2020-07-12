@@ -4,3 +4,7 @@
 ** TODO [[file:src/pages/faq.md][faq to fill out]]
 ** TODO [[file:src/images][favicon]]
 ** TODO theme in general, [[file:src/_data/tokens.json::"colors": {][pallete]]
+* Inbox
+** [2020-07-12 Sun 15:11] Each page implementing a form, needs its own layout to actually inject the form.  Typically, it goes markdown page -> form template -> base template
+
+[[file:~/webDev/atu-site/src/pages/aid.md::layout: 'layouts/aid.njk']]
